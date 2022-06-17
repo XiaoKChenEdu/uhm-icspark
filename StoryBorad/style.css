@@ -1,0 +1,50 @@
+body {
+  margin : 0px;
+}
+
+#container {
+  width : 100%;
+  height : auto;
+}
+
+.area {
+  width : 100%;
+  height : 400px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.innerarea {
+  height: 280px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.panel {
+  height : 100%;
+}
+
+#final {
+  display: flex;
+  justify-content: center;
+}
+
+.speech {
+  background-color: rgb(255,255,255);
+  border-radius: 25px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  text-align: center;
+}
+
+#dialogue1 {
+  font-size: 100px;
+}

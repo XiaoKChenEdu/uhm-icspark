@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+}
+
+.test {
+  color: blue;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#input {
+  width: 500px;
+  height: 50px;
+  font-size: 30px;
+}
+
+
+#output {
+  width: calc(100vw);
+  height: calc(90vh);
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.myMessage {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  margin-right: auto;
+  background-color: #00FFFF;
+}
+
+.yourMessage {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  margin-right: auto;
+  background-color: #eee;
+}

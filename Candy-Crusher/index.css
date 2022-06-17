@@ -1,0 +1,23 @@
+@keyframes moveRight {
+  from {
+        transform: rotate(0deg);
+        transform: 50% 40%;
+        }
+  to {
+      left: 2000px;
+      transform: rotate(360deg);
+      transform-origin: 10% 10%
+      }
+}
+
+.item:hover {
+    cursor: pointer;
+}
+.item {
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  animation-name: moveRight;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}

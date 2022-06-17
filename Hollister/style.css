@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Comic Sans MS;
+  width: 600px;
+}
+
+h2 {
+  width: 350px;
+  height:140px;
+  background-image: url("https://i.dlpng.com/static/png/6671742_preview.png");
+  background-size: cover;
+}
+
+/* Link edit */
+a:link {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p1{
+  color: grey;
+  font-size: 10px;
+  font-family: Comic Sans MS;
+}
+.p2 {
+  font-family: Comic Sans MS;
+}
+/*Testing*/
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
